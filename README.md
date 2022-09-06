@@ -1,1 +1,3 @@
-# applied-js-science
+# Applied JavaScript Science
+
+
