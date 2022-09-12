@@ -38,8 +38,9 @@ body {
     border-radius: 50%;
     z-index: 10px;
     cursor: pointer;
-    backgroud-color: #fff;
+    background-color: #0000ff;
     font-size: 19px;
+    color: #ffff;
 }
 
 .btn:active {
