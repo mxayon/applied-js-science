@@ -17,3 +17,30 @@
 .slider .slide.next {
     display: block;
 }
+
+.prev,
+.next {
+    position: sticky;
+    top: 50%;
+    z-index: 20;
+    cursor: pointer;
+    transform: translateY(-50%);
+    opacity: 0.3;
+    transition: opacity 300ms;
+}
+
+.prev {
+    left: 20px;
+}
+
+.prev:hover {
+    opacity: 1;
+}
+
+.next {
+    right: 20px;
+}
+
+.next:hover {
+    opacity: 1;
+}
