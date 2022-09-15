@@ -1,0 +1,19 @@
+.slider {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .slide {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    transition: transform 400ms;
+}
+
+.slider .slide.active,
+.slider .slide.prev,
+.slider .slide.next {
+    display: block;
+}
