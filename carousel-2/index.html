@@ -9,7 +9,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Carousel</h1>
+    <h1>Carousel v 2</h1>
     <div class="slider">
         <div class="slide active">
             <img src="https://source.unsplash.com/random?landscape,fire" alt="">
@@ -23,8 +23,12 @@
         <div class="slide">
             <img src="https://source.unsplash.com/random?landscape,sky" alt="">
         </div>
-        <span class="prev"> < </span>
-        <span class="next"> > </span>
+        <span class="prev" role="button"> 
+            <img aria-hidden="true" src="img/prev.svg" alt="Previous Slide Button">
+        </span>
+        <span class="next" role="button"> 
+           <img aria-hidden="true" src="img/next.svg" alt="Next Slide Button">
+        </span>
     </div>
     <a href="../index.html">Back to all apps</a>
 </body>
