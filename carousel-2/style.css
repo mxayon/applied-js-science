@@ -1,5 +1,5 @@
 .slider {
-    height: 400px;
+    height: 800px;
     overflow: hidden;
     position: relative;
 }
@@ -18,12 +18,11 @@
     display: block;
 }
 
-.prev,
-.next {
-    position: sticky;
-    top: 50%;
+.prev, .next {
+    position: relative;
     z-index: 20;
     cursor: pointer;
+    top: 50%;
     transform: translateY(-50%);
     opacity: 0.3;
     transition: opacity 300ms;
@@ -39,8 +38,4 @@
 
 .next {
     right: 20px;
-}
-
-.next:hover {
-    opacity: 1;
 }
