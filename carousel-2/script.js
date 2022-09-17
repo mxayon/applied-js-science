@@ -1,7 +1,7 @@
 class Slider {
   constructor(slidePiece) {
     console.log(
-      "🚀 ~ file: script.js ~ line 3 ~ Slider ~ constructor ~ slidePiece",
+      "🚀 ~ file: script.js ~ line 3 ~ Slider ~ constructor ~ slidePiece clog",
       slidePiece
     );
     this.slider = slidePiece;
